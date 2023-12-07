@@ -14,6 +14,14 @@
 		E4B18BDF2B207B9800FAE49C /* CustomPlistSample99Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BDE2B207B9800FAE49C /* CustomPlistSample99Tests.swift */; };
 		E4B18BE92B207B9800FAE49C /* CustomPlistSample99UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BE82B207B9800FAE49C /* CustomPlistSample99UITests.swift */; };
 		E4B18BEB2B207B9800FAE49C /* CustomPlistSample99UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BEA2B207B9800FAE49C /* CustomPlistSample99UITestsLaunchTests.swift */; };
+		E4B18BF82B207CF100FAE49C /* Application.plist in Resources */ = {isa = PBXBuildFile; fileRef = E4B18BF72B207CF100FAE49C /* Application.plist */; };
+		E4B18BFA2B207D3000FAE49C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BF92B207D3000FAE49C /* Common.swift */; };
+		E4B18BFC2B208A2600FAE49C /* CommunicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BFB2B208A2600FAE49C /* CommunicationError.swift */; };
+		E4B18BFE2B208A4600FAE49C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BFD2B208A4600FAE49C /* APIClient.swift */; };
+		E4B18C002B208AA500FAE49C /* OkashiAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BFF2B208AA500FAE49C /* OkashiAPIClient.swift */; };
+		E4B18C022B208AE600FAE49C /* Okashi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18C012B208AE600FAE49C /* Okashi.swift */; };
+		E4B18C042B20B67F00FAE49C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18C032B20B67F00FAE49C /* ContentViewModel.swift */; };
+		E4B18C062B20B71100FAE49C /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18C052B20B71100FAE49C /* CellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		E4B18BE42B207B9800FAE49C /* CustomPlistSample99UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomPlistSample99UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4B18BE82B207B9800FAE49C /* CustomPlistSample99UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlistSample99UITests.swift; sourceTree = "<group>"; };
 		E4B18BEA2B207B9800FAE49C /* CustomPlistSample99UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPlistSample99UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E4B18BF72B207CF100FAE49C /* Application.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Application.plist; sourceTree = "<group>"; };
+		E4B18BF92B207D3000FAE49C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E4B18BFB2B208A2600FAE49C /* CommunicationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationError.swift; sourceTree = "<group>"; };
+		E4B18BFD2B208A4600FAE49C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		E4B18BFF2B208AA500FAE49C /* OkashiAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OkashiAPIClient.swift; path = ../../../../OkashiAPIClient.swift; sourceTree = "<group>"; };
+		E4B18C012B208AE600FAE49C /* Okashi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Okashi.swift; sourceTree = "<group>"; };
+		E4B18C032B20B67F00FAE49C /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		E4B18C052B20B71100FAE49C /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +112,14 @@
 			children = (
 				E4B18BCD2B207B9600FAE49C /* CustomPlistSample99App.swift */,
 				E4B18BCF2B207B9600FAE49C /* ContentView.swift */,
+				E4B18C032B20B67F00FAE49C /* ContentViewModel.swift */,
+				E4B18C052B20B71100FAE49C /* CellView.swift */,
+				E4B18BF92B207D3000FAE49C /* Common.swift */,
+				E4B18BFF2B208AA500FAE49C /* OkashiAPIClient.swift */,
+				E4B18BFD2B208A4600FAE49C /* APIClient.swift */,
+				E4B18C012B208AE600FAE49C /* Okashi.swift */,
+				E4B18BFB2B208A2600FAE49C /* CommunicationError.swift */,
+				E4B18BF72B207CF100FAE49C /* Application.plist */,
 				E4B18BD12B207B9800FAE49C /* Assets.xcassets */,
 				E4B18BD32B207B9800FAE49C /* Preview Content */,
 			);
@@ -232,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B18BD52B207B9800FAE49C /* Preview Assets.xcassets in Resources */,
+				E4B18BF82B207CF100FAE49C /* Application.plist in Resources */,
 				E4B18BD22B207B9800FAE49C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,8 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B18C042B20B67F00FAE49C /* ContentViewModel.swift in Sources */,
+				E4B18C022B208AE600FAE49C /* Okashi.swift in Sources */,
 				E4B18BD02B207B9600FAE49C /* ContentView.swift in Sources */,
+				E4B18BFA2B207D3000FAE49C /* Common.swift in Sources */,
+				E4B18C002B208AA500FAE49C /* OkashiAPIClient.swift in Sources */,
 				E4B18BCE2B207B9600FAE49C /* CustomPlistSample99App.swift in Sources */,
+				E4B18BFE2B208A4600FAE49C /* APIClient.swift in Sources */,
+				E4B18BFC2B208A2600FAE49C /* CommunicationError.swift in Sources */,
+				E4B18C062B20B71100FAE49C /* CellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,16 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    let shared = Common.shared
+    // FIXME: 直して
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        // FIXME: 直して！
     }
 }
+
 
 #Preview {
     ContentView()
