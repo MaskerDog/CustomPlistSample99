@@ -18,10 +18,10 @@
 		E4B18BFA2B207D3000FAE49C /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BF92B207D3000FAE49C /* Common.swift */; };
 		E4B18BFC2B208A2600FAE49C /* CommunicationError.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BFB2B208A2600FAE49C /* CommunicationError.swift */; };
 		E4B18BFE2B208A4600FAE49C /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BFD2B208A4600FAE49C /* APIClient.swift */; };
-		E4B18C002B208AA500FAE49C /* OkashiAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18BFF2B208AA500FAE49C /* OkashiAPIClient.swift */; };
 		E4B18C022B208AE600FAE49C /* Okashi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18C012B208AE600FAE49C /* Okashi.swift */; };
 		E4B18C042B20B67F00FAE49C /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18C032B20B67F00FAE49C /* ContentViewModel.swift */; };
 		E4B18C062B20B71100FAE49C /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18C052B20B71100FAE49C /* CellView.swift */; };
+		E4B18C0A2B214B9500FAE49C /* OkashiAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4B18C092B214B9500FAE49C /* OkashiAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +56,10 @@
 		E4B18BF92B207D3000FAE49C /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
 		E4B18BFB2B208A2600FAE49C /* CommunicationError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationError.swift; sourceTree = "<group>"; };
 		E4B18BFD2B208A4600FAE49C /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
-		E4B18BFF2B208AA500FAE49C /* OkashiAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = OkashiAPIClient.swift; path = ../../../../OkashiAPIClient.swift; sourceTree = "<group>"; };
 		E4B18C012B208AE600FAE49C /* Okashi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Okashi.swift; sourceTree = "<group>"; };
 		E4B18C032B20B67F00FAE49C /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		E4B18C052B20B71100FAE49C /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		E4B18C092B214B9500FAE49C /* OkashiAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OkashiAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +113,9 @@
 				E4B18BCD2B207B9600FAE49C /* CustomPlistSample99App.swift */,
 				E4B18BCF2B207B9600FAE49C /* ContentView.swift */,
 				E4B18C032B20B67F00FAE49C /* ContentViewModel.swift */,
+				E4B18C092B214B9500FAE49C /* OkashiAPIClient.swift */,
 				E4B18C052B20B71100FAE49C /* CellView.swift */,
 				E4B18BF92B207D3000FAE49C /* Common.swift */,
-				E4B18BFF2B208AA500FAE49C /* OkashiAPIClient.swift */,
 				E4B18BFD2B208A4600FAE49C /* APIClient.swift */,
 				E4B18C012B208AE600FAE49C /* Okashi.swift */,
 				E4B18BFB2B208A2600FAE49C /* CommunicationError.swift */,
@@ -286,8 +286,8 @@
 				E4B18C022B208AE600FAE49C /* Okashi.swift in Sources */,
 				E4B18BD02B207B9600FAE49C /* ContentView.swift in Sources */,
 				E4B18BFA2B207D3000FAE49C /* Common.swift in Sources */,
-				E4B18C002B208AA500FAE49C /* OkashiAPIClient.swift in Sources */,
 				E4B18BCE2B207B9600FAE49C /* CustomPlistSample99App.swift in Sources */,
+				E4B18C0A2B214B9500FAE49C /* OkashiAPIClient.swift in Sources */,
 				E4B18BFE2B208A4600FAE49C /* APIClient.swift in Sources */,
 				E4B18BFC2B208A2600FAE49C /* CommunicationError.swift in Sources */,
 				E4B18C062B20B71100FAE49C /* CellView.swift in Sources */,
